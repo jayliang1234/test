@@ -23,8 +23,9 @@ function App() {
     <div 
       className="App"
       style={{
+        position:'relative',
+        backgroundSize: 'cover',
         backgroundImage: `url(${background})`, 
-        backgroundSize: 'cover',   // Make sure the background covers the entire area
         backgroundPosition: 'center', // Center the image
         backgroundRepeat: 'no-repeat', // Prevent the image from repeating
         minHeight: '100vh', // Ensure the div takes up the full viewport height
@@ -40,9 +41,15 @@ function App() {
           <img src={msvg} alt="slide"/>
           <img src={msvg} alt="slide"/>
           <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
         </div>
 
         <div class="logos-slide">
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
           <img src={msvg} alt="slide"/>
           <img src={msvg} alt="slide"/>
           <img src={msvg} alt="slide"/>
