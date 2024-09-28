@@ -1,8 +1,8 @@
 import React from 'react';
-import dexscreener from "../src/img/dexscreener.png"
-import telegram from "../src/img/telegram.png"
-import twitter from "../src/img/twitter.png"
-import dextools from "../src/img/dextools.png"
+// import dexscreener from "../src/img/dexscreener.png"
+// import telegram from "../src/img/telegram.png"
+// import twitter from "../src/img/twitter.png"
+// import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
 import './App.css';
 function copyText() {
@@ -46,7 +46,7 @@ function App() {
             <div style={{marginBottom:'5vh'}}>
               <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
             </div>
-            <div style={{marginBottom:'5vh'}}>
+              <div style={{marginBottom:'5vh'}}>
               <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
             </div>
             {/* <a href="https://x.com" target="_blank" rel="noreferrer">
