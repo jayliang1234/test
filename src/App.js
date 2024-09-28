@@ -36,7 +36,7 @@ function App() {
           <div style={{marginBottom:'5vh'}}>
             <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
           </div>
-          <div style={{display: 'flex'}}>
+          <div>
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
