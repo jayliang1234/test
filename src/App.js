@@ -39,7 +39,8 @@ function App() {
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
-                  <img src={background} alt="telegram" style={{width: '171px', height:'26px'}}/>
+                  telegram
+                  {/* <img src={background} alt="telegram" style={{width: '171px', height:'26px'}}/> */}
                 </span>
               </button>
             </a>{" "}  
