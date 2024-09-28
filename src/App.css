@@ -30,15 +30,13 @@
 
 .Socials {
   font-weight: bold;
-  min-height: auto;
-  min-width: 140px;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
   cursor: pointer;
 }
-.Socials span {
+/* .Socials span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -57,7 +55,7 @@
 .Socials:hover span:after {
   opacity: 1;
   right: 0;
-}
+} */
 .CA{
   font-weight: bold;
   border-width: 2px;
