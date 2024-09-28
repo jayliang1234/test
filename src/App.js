@@ -32,25 +32,25 @@ function App() {
     >
       <div class="logos">
         <div class="logos-slide">
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
         </div>
 
         <div class="logos-slide">
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
-          <img src={msvg} />
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
+          <img src={msvg} alt="slide"/>
         </div>
       </div>
         <header className="Meme-Intro">
