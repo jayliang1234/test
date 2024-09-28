@@ -33,7 +33,7 @@ function App() {
             FUCK 350
           </p>
           <div style={{marginBottom:'5vh'}}>
-            <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
+            <button className='CA' id="textToCopy" onClick={copyText}>CA:FK3500 </button>
           </div>
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
