@@ -28,15 +28,17 @@
   color: #61dafb;
 }
 
-.Socials {
+.Socials{
   font-weight: bold;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 20px;
+  font-size: large;
   background-color: white;
+  padding: 10px;
   cursor: pointer;
 }
-/* .Socials span {
+.Socials span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -55,7 +57,7 @@
 .Socials:hover span:after {
   opacity: 1;
   right: 0;
-} */
+}
 .CA{
   font-weight: bold;
   border-width: 2px;
