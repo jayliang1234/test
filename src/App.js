@@ -5,6 +5,7 @@ import twitter from "../src/img/twitter.png"
 import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
 import './App.css';
+import Styles from './App.css';
 function copyText() {
   const textToCopy = document.getElementById("textToCopy").innerText;
 
@@ -38,7 +39,7 @@ function App() {
           </div>
           <div>
             <a href="https://x.com" target="_blank" rel="noreferrer">
-              <button className='Socials' style={{ marginRight:'2vh'}}>
+              <button className={Styles.Socials} style={{ marginRight:'2vh'}}>
                 <span>
                   <img src={telegram} alt="telegram" style={{width: 'auto', height:'auto'}}/>
                 </span>
