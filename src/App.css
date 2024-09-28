@@ -38,33 +38,23 @@
   padding: 10px;
   cursor: pointer;
 }
-.Socials{
-  font-weight: bold;
-  border-width: 2px;
-  border-color: black;
-  border-radius: 20px;
-  font-size: large;
-  background-color: white;
-  padding: 10px;
-  cursor: pointer;
-}
-.Socials span {
+.CA span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.Socials span:after {
+.CA span:after {
   position: absolute;
   opacity: 0;
   top: 0;
   transition: 0.5s;
 }
-.Socials:hover span {
+.CA:hover span {
   padding: 5px;
 }
 
-.Socials:hover span:after {
+.CA:hover span:after {
   opacity: 1;
   right: 0;
 }
