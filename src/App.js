@@ -40,28 +40,28 @@ function App() {
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
-                  <img src={process.env.PUBLIC_URL + "/img/telegram.png"} alt="telegram" style={{width: 'auto', height:'auto'}}/>
+                  <img src={telegram} alt="telegram" style={{width: 'auto', height:'auto'}}/>
                 </span>
               </button>
             </a>{" "}  
             <a href="https://dexscreener.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
-                  <img src={process.env.PUBLIC_URL + "/img/dexscreener.png"} alt="Dexscreener" style={{width: 'auto',height:'auto'}}/>
+                  <img src={dexscreener} alt="Dexscreener" style={{width: 'auto',height:'auto'}}/>
                 </span>
               </button>
             </a>
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
-                  <img src={process.env.PUBLIC_URL + "/img/twitter.png"} alt="twitter" style={{width: 'auto',height:'auto'}}></img>
+                  <img src={twitter} alt="twitter" style={{width: 'auto',height:'auto'}}></img>
                 </span>
               </button>
             </a>
             <a href="https://dextools.io" target="_blank" rel="noreferrer">
               <button className='Socials'>
                 <span>
-                  <img src={process.env.PUBLIC_URL + "/img/dextools.png"} alt="dextools" style={{width: 'auto',height:'auto'}}></img>
+                  <img src={dextools} alt="dextools" style={{width: 'auto',height:'auto'}}></img>
                 </span>
               </button>
             </a>
