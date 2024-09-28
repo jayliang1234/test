@@ -1,6 +1,5 @@
 import React from 'react';
 import dexscreener from "../src/img/dexscreener.png"
-import telegram from "../src/img/telegram.png"
 import twitter from "../src/img/twitter.png"
 import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
