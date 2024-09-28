@@ -4,7 +4,7 @@ import telegram from "../src/img/telegram.png"
 import twitter from "../src/img/twitter.png"
 import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
-import msvg from "../src/logos/3m.svg";
+import msvg from "../src/logos/fk350.svg";
 import './App.css';
 function copyText() {
   const textToCopy = document.getElementById("textToCopy").innerText;
