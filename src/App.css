@@ -13,21 +13,61 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.Meme-Intro {
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.Socials {
+  font-weight: bold;
+  min-height: auto;
+  min-width: 140px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.Socials span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Socials span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.Socials:hover span {
+  padding: 5px;
+}
+
+.Socials:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.CA{
+  font-weight: bold;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 20px;
+  font-size: large;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
