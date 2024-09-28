@@ -4,6 +4,7 @@ import telegram from "../src/img/telegram.png"
 import twitter from "../src/img/twitter.png"
 import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
+import msvg from "../src/logos/3m.svg";
 import './App.css';
 function copyText() {
   const textToCopy = document.getElementById("textToCopy").innerText;
@@ -29,6 +30,29 @@ function App() {
         minHeight: '100vh', // Ensure the div takes up the full viewport height
       }}
     >
+      <div class="logos">
+        <div class="logos-slide">
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+        </div>
+
+        <div class="logos-slide">
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+          <img src={msvg} />
+        </div>
+      </div>
         <header className="Meme-Intro">
           <p style={{fontWeight:'bold', fontSize:'50px', color:'white'}}>
             FUCK 350
