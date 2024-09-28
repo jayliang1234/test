@@ -1,6 +1,6 @@
 import React from 'react';
 import dexscreener from "../src/img/dexscreener.png"
-import telegram from "../src/img/telegram.png"
+//import telegram from "../src/img/telegram.png"
 import twitter from "../src/img/twitter.png"
 import dextools from "../src/img/dextools.png"
 import background from "../src/img/353kaymar.png"
@@ -37,11 +37,13 @@ function App() {
             <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
           </div>
           <div>
+            <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
-                  <img src={telegram} alt="telegram" style={{width: 'auto', height:'auto'}}/>
+                  
                 </span>
               </button>
+            </a>{" "}  
             <a href="https://dexscreener.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
