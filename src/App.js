@@ -35,7 +35,6 @@ function App() {
           <div style={{marginBottom:'5vh'}}>
             <button className='CA' id="textToCopy" onClick={copyText}>CA:FK350 </button>
           </div>
-          <div>
             <a href="https://x.com" target="_blank" rel="noreferrer">
               <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
@@ -65,7 +64,6 @@ function App() {
                 </span>
               </button>
             </a>
-          </div>
         </header>
     </div>
   );
