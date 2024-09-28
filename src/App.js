@@ -38,28 +38,28 @@ function App() {
           </div>
           <div>
             <a href="https://x.com" target="_blank" rel="noreferrer">
-              <button className='CA' style={{ marginRight:'2vh'}}>
+              <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
                   <img src={telegram} alt="telegram" style={{width: 'auto', height:'auto'}}/>
                 </span>
               </button>
             </a>{" "}  
             <a href="https://dexscreener.com" target="_blank" rel="noreferrer">
-              <button className='CA' style={{ marginRight:'2vh'}}>
+              <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
                   <img src={dexscreener} alt="Dexscreener" style={{width: 'auto',height:'auto'}}/>
                 </span>
               </button>
             </a>
             <a href="https://x.com" target="_blank" rel="noreferrer">
-              <button className='CA' style={{ marginRight:'2vh'}}>
+              <button className='Socials' style={{ marginRight:'2vh'}}>
                 <span>
                   <img src={twitter} alt="twitter" style={{width: 'auto',height:'auto'}}></img>
                 </span>
               </button>
             </a>
             <a href="https://dextools.io" target="_blank" rel="noreferrer">
-              <button className='CA'>
+              <button className='Socials'>
                 <span>
                   <img src={dextools} alt="dextools" style={{width: 'auto',height:'auto'}}></img>
                 </span>

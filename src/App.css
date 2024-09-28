@@ -38,27 +38,7 @@
   padding: 10px;
   cursor: pointer;
 }
-.CA span {
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.CA span:after {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  transition: 0.5s;
-}
-.CA:hover span {
-  padding: 5px;
-}
-
-.CA:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.CA{
+.Socials{
   font-weight: bold;
   border-width: 2px;
   border-color: black;
@@ -67,6 +47,26 @@
   background-color: white;
   padding: 10px;
   cursor: pointer;
+}
+.Socials span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Socials span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.Socials:hover span {
+  padding: 5px;
+}
+
+.Socials:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 @keyframes App-logo-spin {
   from {
