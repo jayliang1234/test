@@ -45,7 +45,7 @@ function App() {
               </button>
             </a>{" "}  
             <a href="https://dexscreener.com" target="_blank" rel="noreferrer">
-              <button className='Socials' style={{ marginRight:'2vh'}}>
+              <button className='CA' style={{ marginRight:'2vh'}}>
                 <span>
                   <img src={dexscreener} alt="Dexscreener" style={{width: 'auto',height:'auto'}}/>
                 </span>
